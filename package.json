@@ -1,0 +1,16 @@
+{
+  "name": "armenia-travel-app",
+  "version": "1.0.0",
+  "description": "Armenia Travel Web Application - Full Stack",
+  "scripts": {
+    "install:all": "npm install && cd client && npm install && cd ../server && npm install",
+    "dev:client": "cd client && npm run dev",
+    "dev:server": "cd server && npm run dev",
+    "build:client": "cd client && npm run build",
+    "build:server": "cd server && npm run build",
+    "build:all": "npm run build:server && npm run build:client"
+  },
+  "keywords": ["armenia", "travel", "react", "nodejs", "typescript"],
+  "author": "",
+  "license": "MIT"
+}
